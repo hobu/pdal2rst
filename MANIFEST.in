@@ -1,0 +1,6 @@
+graft pdal2rst
+recursive-exclude pdal2rst *.pyc
+include requirements.txt
+include README.md
+include pdal2rst/templates/*
+exclude pdal2rst/test.py

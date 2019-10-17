@@ -1,0 +1,332 @@
+{
+  "boundary":
+  {
+    "area": 149961067.6,
+    "avg_pt_per_sq_unit": 6366271.741,
+    "avg_pt_spacing": 1189.422992,
+    "boundary": "POLYGON ((633397.22 844746.23,641455.45 849398.65,641455.45 858703.49,628025.07 854051.07,633397.22 844746.23))",
+    "boundary_json": { "type": "Polygon", "coordinates": [ [ [ 633397.223823289969005, 844746.22958776995074 ], [ 641455.452353429980576, 849398.650000000023283 ], [ 641455.452353429980576, 858703.490824450040236 ], [ 628025.071469860034995, 854051.070412229979411 ], [ 633397.223823289969005, 844746.22958776995074 ] ] ] },
+    "density": 7.068501291e-07,
+    "edge_length": 0,
+    "estimated_edge": 9304.840824,
+    "hex_offsets": "MULTIPOINT (0 0, -2686.08 4652.42, 0 9304.84, 5372.15 9304.84, 8058.23 4652.42, 5372.15 0)",
+    "sample_size": 5000,
+    "threshold": 15
+  },
+  "filename": "..\\pdal\\test\\data\\autzen\\autzen.las",
+  "metadata":
+  {
+    "comp_spatialreference": "PROJCS[\"NAD83(HARN) / Oregon GIC Lambert (ft)\",GEOGCS[\"NAD83(HARN)\",DATUM[\"NAD83_High_Accuracy_Reference_Network\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY[\"EPSG\",\"6152\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4152\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",41.75],PARAMETER[\"central_meridian\",-120.5],PARAMETER[\"standard_parallel_1\",43],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"false_easting\",1312335.958],PARAMETER[\"false_northing\",0],UNIT[\"foot\",0.3048,AUTHORITY[\"EPSG\",\"9002\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"2994\"]]",
+    "compressed": false,
+    "count": 106,
+    "creation_doy": 0,
+    "creation_year": 0,
+    "dataformat_id": 1,
+    "dataoffset": 1994,
+    "filesource_id": 0,
+    "global_encoding": 0,
+    "global_encoding_base64": "AAA=",
+    "header_size": 227,
+    "major_version": 1,
+    "maxx": 638864.6,
+    "maxy": 853362.37,
+    "maxz": 536.84,
+    "minor_version": 2,
+    "minx": 635616.31,
+    "miny": 848977.79,
+    "minz": 407.35,
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": 0,
+    "point_length": 28,
+    "project_id": "00000000-0000-0000-0000-000000000000",
+    "scale_x": 0.01,
+    "scale_y": 0.01,
+    "scale_z": 0.01,
+    "software_id": "TerraScan",
+    "spatialreference": "PROJCS[\"NAD83(HARN) / Oregon GIC Lambert (ft)\",GEOGCS[\"NAD83(HARN)\",DATUM[\"NAD83_High_Accuracy_Reference_Network\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY[\"EPSG\",\"6152\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4152\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",41.75],PARAMETER[\"central_meridian\",-120.5],PARAMETER[\"standard_parallel_1\",43],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"false_easting\",1312335.958],PARAMETER[\"false_northing\",0],UNIT[\"foot\",0.3048,AUTHORITY[\"EPSG\",\"9002\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"2994\"]]",
+    "srs":
+    {
+      "compoundwkt": "PROJCS[\"NAD83(HARN) / Oregon GIC Lambert (ft)\",GEOGCS[\"NAD83(HARN)\",DATUM[\"NAD83_High_Accuracy_Reference_Network\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY[\"EPSG\",\"6152\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4152\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",41.75],PARAMETER[\"central_meridian\",-120.5],PARAMETER[\"standard_parallel_1\",43],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"false_easting\",1312335.958],PARAMETER[\"false_northing\",0],UNIT[\"foot\",0.3048,AUTHORITY[\"EPSG\",\"9002\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"2994\"]]",
+      "horizontal": "PROJCS[\"NAD83(HARN) / Oregon GIC Lambert (ft)\",GEOGCS[\"NAD83(HARN)\",DATUM[\"NAD83_High_Accuracy_Reference_Network\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY[\"EPSG\",\"6152\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4152\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",41.75],PARAMETER[\"central_meridian\",-120.5],PARAMETER[\"standard_parallel_1\",43],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"false_easting\",1312335.958],PARAMETER[\"false_northing\",0],UNIT[\"foot\",0.3048,AUTHORITY[\"EPSG\",\"9002\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"2994\"]]",
+      "isgeocentric": false,
+      "isgeographic": false,
+      "prettycompoundwkt": "PROJCS[\"NAD83(HARN) / Oregon GIC Lambert (ft)\",\n    GEOGCS[\"NAD83(HARN)\",\n        DATUM[\"NAD83_High_Accuracy_Reference_Network\",\n            SPHEROID[\"GRS 1980\",6378137,298.257222101,\n                AUTHORITY[\"EPSG\",\"7019\"]],\n            TOWGS84[0,0,0,0,0,0,0],\n            AUTHORITY[\"EPSG\",\"6152\"]],\n        PRIMEM[\"Greenwich\",0,\n            AUTHORITY[\"EPSG\",\"8901\"]],\n        UNIT[\"degree\",0.0174532925199433,\n            AUTHORITY[\"EPSG\",\"9122\"]],\n        AUTHORITY[\"EPSG\",\"4152\"]],\n    PROJECTION[\"Lambert_Conformal_Conic_2SP\"],\n    PARAMETER[\"latitude_of_origin\",41.75],\n    PARAMETER[\"central_meridian\",-120.5],\n    PARAMETER[\"standard_parallel_1\",43],\n    PARAMETER[\"standard_parallel_2\",45.5],\n    PARAMETER[\"false_easting\",1312335.958],\n    PARAMETER[\"false_northing\",0],\n    UNIT[\"foot\",0.3048,\n        AUTHORITY[\"EPSG\",\"9002\"]],\n    AXIS[\"Easting\",EAST],\n    AXIS[\"Northing\",NORTH],\n    AUTHORITY[\"EPSG\",\"2994\"]]",
+      "prettywkt": "PROJCS[\"NAD83(HARN) / Oregon GIC Lambert (ft)\",\n    GEOGCS[\"NAD83(HARN)\",\n        DATUM[\"NAD83_High_Accuracy_Reference_Network\",\n            SPHEROID[\"GRS 1980\",6378137,298.257222101,\n                AUTHORITY[\"EPSG\",\"7019\"]],\n            TOWGS84[0,0,0,0,0,0,0],\n            AUTHORITY[\"EPSG\",\"6152\"]],\n        PRIMEM[\"Greenwich\",0,\n            AUTHORITY[\"EPSG\",\"8901\"]],\n        UNIT[\"degree\",0.0174532925199433,\n            AUTHORITY[\"EPSG\",\"9122\"]],\n        AUTHORITY[\"EPSG\",\"4152\"]],\n    PROJECTION[\"Lambert_Conformal_Conic_2SP\"],\n    PARAMETER[\"latitude_of_origin\",41.75],\n    PARAMETER[\"central_meridian\",-120.5],\n    PARAMETER[\"standard_parallel_1\",43],\n    PARAMETER[\"standard_parallel_2\",45.5],\n    PARAMETER[\"false_easting\",1312335.958],\n    PARAMETER[\"false_northing\",0],\n    UNIT[\"foot\",0.3048,\n        AUTHORITY[\"EPSG\",\"9002\"]],\n    AXIS[\"Easting\",EAST],\n    AXIS[\"Northing\",NORTH],\n    AUTHORITY[\"EPSG\",\"2994\"]]",
+      "proj4": "+proj=lcc +lat_0=41.75 +lon_0=-120.5 +lat_1=43 +lat_2=45.5 +x_0=399999.9999984 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs",
+      "units":
+      {
+        "horizontal": "foot",
+        "vertical": ""
+      },
+      "vertical": "",
+      "wkt": "PROJCS[\"NAD83(HARN) / Oregon GIC Lambert (ft)\",GEOGCS[\"NAD83(HARN)\",DATUM[\"NAD83_High_Accuracy_Reference_Network\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY[\"EPSG\",\"6152\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4152\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",41.75],PARAMETER[\"central_meridian\",-120.5],PARAMETER[\"standard_parallel_1\",43],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"false_easting\",1312335.958],PARAMETER[\"false_northing\",0],UNIT[\"foot\",0.3048,AUTHORITY[\"EPSG\",\"9002\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"2994\"]]"
+    },
+    "system_id": "",
+    "vlr_0":
+    {
+      "data": "UFJPSkNTWyJOQUQ4MyhIQVJOKSAvIE9yZWdvbiBMYW1iZXJ0IChmdCkiLEdFT0dDU1siTkFEODMoSEFSTikiLERBVFVNWyJOQUQ4M19IaWdoX0FjY3VyYWN5X1JlZ2lvbmFsX05ldHdvcmsiLFNQSEVST0lEWyJHUlMgMTk4MCIsNjM3ODEzNywyOTguMjU3MjIyMTAxLEFVVEhPUklUWVsiRVBTRyIsIjcwMTkiXV0sVE9XR1M4NFswLDAsMCwwLDAsMCwwXSxBVVRIT1JJVFlbIkVQU0ciLCI2MTUyIl1dLFBSSU1FTVsiR3JlZW53aWNoIiwwLEFVVEhPUklUWVsiRVBTRyIsIjg5MDEiXV0sVU5JVFsiZGVncmVlIiwwLjAxNzQ1MzI5MjUxOTk0MzMsQVVUSE9SSVRZWyJFUFNHIiwiOTEyMiJdXSxBVVRIT1JJVFlbIkVQU0ciLCI0MTUyIl1dLFVOSVRbImZvb3QiLDAuMzA0OCxBVVRIT1JJVFlbIkVQU0ciLCI5MDAyIl1dLFBST0pFQ1RJT05bIkxhbWJlcnRfQ29uZm9ybWFsX0NvbmljXzJTUCJdLFBBUkFNRVRFUlsic3RhbmRhcmRfcGFyYWxsZWxfMSIsNDNdLFBBUkFNRVRFUlsic3RhbmRhcmRfcGFyYWxsZWxfMiIsNDUuNV0sUEFSQU1FVEVSWyJsYXRpdHVkZV9vZl9vcmlnaW4iLDQxLjc1XSxQQVJBTUVURVJbImNlbnRyYWxfbWVyaWRpYW4iLC0xMjAuNV0sUEFSQU1FVEVSWyJmYWxzZV9lYXN0aW5nIiwxMzEyMzM1Ljk1OF0sUEFSQU1FVEVSWyJmYWxzZV9ub3J0aGluZyIsMF0sQVVUSE9SSVRZWyJFUFNHIiwiMjk5NCJdLEFYSVNbIlgiLEVBU1RdLEFYSVNbIlkiLE5PUlRIXV0A",
+      "description": "OGR variant of OpenGIS WKT SRS",
+      "record_id": 2112,
+      "user_id": "liblas"
+    },
+    "vlr_1":
+    {
+      "data": "AQABAAAABwAABAAAAQABAAEEAAABAAEAAgSxhyIAAAABCLGHDAAiAAYIAAABAI4jAAwAAAEAsgsEDAAAAQAqIw==",
+      "description": "GeoTIFF GeoKeyDirectoryTag",
+      "record_id": 34735,
+      "user_id": "LASF_Projection"
+    },
+    "vlr_2":
+    {
+      "data": "TkFEODMoSEFSTikgLyBPcmVnb24gTGFtYmVydCAoZnQpfE5BRDgzKEhBUk4pfAA=",
+      "description": "GeoTIFF GeoAsciiParamsTag",
+      "record_id": 34737,
+      "user_id": "LASF_Projection"
+    },
+    "vlr_3":
+    {
+      "data": "UFJPSkNTWyJOQUQ4MyhIQVJOKSAvIE9yZWdvbiBMYW1iZXJ0IChmdCkiLEdFT0dDU1siTkFEODMoSEFSTikiLERBVFVNWyJOQUQ4M19IaWdoX0FjY3VyYWN5X1JlZ2lvbmFsX05ldHdvcmsiLFNQSEVST0lEWyJHUlMgMTk4MCIsNjM3ODEzNywyOTguMjU3MjIyMTAxLEFVVEhPUklUWVsiRVBTRyIsIjcwMTkiXV0sVE9XR1M4NFswLDAsMCwwLDAsMCwwXSxBVVRIT1JJVFlbIkVQU0ciLCI2MTUyIl1dLFBSSU1FTVsiR3JlZW53aWNoIiwwLEFVVEhPUklUWVsiRVBTRyIsIjg5MDEiXV0sVU5JVFsiZGVncmVlIiwwLjAxNzQ1MzI5MjUxOTk0MzMsQVVUSE9SSVRZWyJFUFNHIiwiOTEyMiJdXSxBVVRIT1JJVFlbIkVQU0ciLCI0MTUyIl1dLFVOSVRbImZvb3QiLDAuMzA0OCxBVVRIT1JJVFlbIkVQU0ciLCI5MDAyIl1dLFBST0pFQ1RJT05bIkxhbWJlcnRfQ29uZm9ybWFsX0NvbmljXzJTUCJdLFBBUkFNRVRFUlsic3RhbmRhcmRfcGFyYWxsZWxfMSIsNDNdLFBBUkFNRVRFUlsic3RhbmRhcmRfcGFyYWxsZWxfMiIsNDUuNV0sUEFSQU1FVEVSWyJsYXRpdHVkZV9vZl9vcmlnaW4iLDQxLjc1XSxQQVJBTUVURVJbImNlbnRyYWxfbWVyaWRpYW4iLC0xMjAuNV0sUEFSQU1FVEVSWyJmYWxzZV9lYXN0aW5nIiwxMzEyMzM1Ljk1OF0sUEFSQU1FVEVSWyJmYWxzZV9ub3J0aGluZyIsMF0sQVVUSE9SSVRZWyJFUFNHIiwiMjk5NCJdLEFYSVNbIlgiLEVBU1RdLEFYSVNbIlkiLE5PUlRIXV0A",
+      "description": "OGR variant of OpenGIS WKT SRS",
+      "record_id": 2112,
+      "user_id": "liblas"
+    }
+  },
+  "pdal_version": "2.0.1 (git-version: Release)",
+  "schema":
+  {
+    "dimensions":
+    [
+      {
+        "name": "X",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Y",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Z",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Intensity",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "ReturnNumber",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "NumberOfReturns",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ScanDirectionFlag",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "EdgeOfFlightLine",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "Classification",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ScanAngleRank",
+        "size": 4,
+        "type": "floating"
+      },
+      {
+        "name": "UserData",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "PointSourceId",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "GpsTime",
+        "size": 8,
+        "type": "floating"
+      }
+    ]
+  },
+  "stats":
+  {
+    "bbox":
+    {
+      "EPSG:4326":
+      {
+        "bbox":
+        {
+          "maxx": -123.0625003,
+          "maxy": 44.06228767,
+          "maxz": 163.628832,
+          "minx": -123.0753748,
+          "miny": 44.04998442,
+          "minz": 124.16028
+        },
+        "boundary": "{ \"type\": \"Polygon\", \"coordinates\": [ [ [ -123.074851683948381, 44.049984419110423, 124.16028 ], [ -123.075374810535592, 44.062008822800642, 124.16028 ], [ -123.063020924484519, 44.062287670897632, 163.628832 ], [ -123.062500304029314, 44.050263210971899, 163.628832 ], [ -123.074851683948381, 44.049984419110423, 124.16028 ] ] ] }"
+      },
+      "native":
+      {
+        "bbox":
+        {
+          "maxx": 638864.6,
+          "maxy": 853362.37,
+          "maxz": 536.84,
+          "minx": 635616.31,
+          "miny": 848977.79,
+          "minz": 407.35
+        },
+        "boundary": "{ \"type\": \"Polygon\", \"coordinates\": [ [ [ 635616.31, 848977.79, 407.35 ], [ 635616.31, 853362.37, 407.35 ], [ 638864.6, 853362.37, 536.84 ], [ 638864.6, 848977.79, 536.84 ], [ 635616.31, 848977.79, 407.35 ] ] ] }"
+      }
+    },
+    "statistic":
+    [
+      {
+        "average": 637290.5827,
+        "count": 106,
+        "maximum": 638864.6,
+        "minimum": 635616.31,
+        "name": "X",
+        "position": 0,
+        "stddev": 62082.70892,
+        "variance": 3854262746
+      },
+      {
+        "average": 851303.5097,
+        "count": 106,
+        "maximum": 853362.37,
+        "minimum": 848977.79,
+        "name": "Y",
+        "position": 1,
+        "stddev": 82902.82045,
+        "variance": 6872877639
+      },
+      {
+        "average": 435.0418868,
+        "count": 106,
+        "maximum": 536.84,
+        "minimum": 407.35,
+        "name": "Z",
+        "position": 2,
+        "stddev": 47.3740377,
+        "variance": 2244.299448
+      },
+      {
+        "average": 70.8490566,
+        "count": 106,
+        "maximum": 238,
+        "minimum": 0,
+        "name": "Intensity",
+        "position": 3,
+        "stddev": 64.32357873,
+        "variance": 4137.522781
+      },
+      {
+        "average": 1.20754717,
+        "count": 106,
+        "maximum": 4,
+        "minimum": 1,
+        "name": "ReturnNumber",
+        "position": 4,
+        "stddev": 0.6031714674,
+        "variance": 0.363815819
+      },
+      {
+        "average": 1.41509434,
+        "count": 106,
+        "maximum": 4,
+        "minimum": 1,
+        "name": "NumberOfReturns",
+        "position": 5,
+        "stddev": 0.7638890315,
+        "variance": 0.5835264525
+      },
+      {
+        "average": 0.4716981132,
+        "count": 106,
+        "maximum": 1,
+        "minimum": 0,
+        "name": "ScanDirectionFlag",
+        "position": 6,
+        "stddev": 0.5226577649,
+        "variance": 0.2731711392
+      },
+      {
+        "average": 0,
+        "count": 106,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "EdgeOfFlightLine",
+        "position": 7,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 1.226415094,
+        "count": 106,
+        "maximum": 2,
+        "minimum": 1,
+        "name": "Classification",
+        "position": 8,
+        "stddev": 0.4461920766,
+        "variance": 0.1990873693
+      },
+      {
+        "average": -0.5754716981,
+        "count": 106,
+        "maximum": 19,
+        "minimum": -16,
+        "name": "ScanAngleRank",
+        "position": 9,
+        "stddev": 8.968132308,
+        "variance": 80.42739709
+      },
+      {
+        "average": 126.5566038,
+        "count": 106,
+        "maximum": 139,
+        "minimum": 122,
+        "name": "UserData",
+        "position": 10,
+        "stddev": 12.75887259,
+        "variance": 162.7888297
+      },
+      {
+        "average": 7329.933962,
+        "count": 106,
+        "maximum": 7334,
+        "minimum": 7326,
+        "name": "PointSourceId",
+        "position": 11,
+        "stddev": 714.9476125,
+        "variance": 511150.0886
+      },
+      {
+        "average": 247627.849,
+        "count": 106,
+        "maximum": 249780.6156,
+        "minimum": 245372.9067,
+        "name": "GpsTime",
+        "position": 12,
+        "stddev": 23975.71279,
+        "variance": 574834803.6
+      }
+    ]
+  }
+}
